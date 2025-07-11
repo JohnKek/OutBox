@@ -1,9 +1,9 @@
-package main
+package api
 
 import (
-	api "github.com/JohnKek/OutBox/api"
 	"context"
 	"fmt"
+	api "github.com/JohnKek/OutBox/api/api/grpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -12,8 +12,7 @@ import (
 )
 
 type Server struct {
-	api.
-	users map[int32]*api.Person
+	api.U
 	sync.Mutex
 }
 
