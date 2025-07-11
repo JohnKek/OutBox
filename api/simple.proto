@@ -1,6 +1,6 @@
 syntax = "proto3";
 package outbox;
-option go_package = "./api/grpc;api";
+option go_package = "github.com/JohnKek/OutBox/api/grpc/simple;simple";
 
 message Order {
   int32 id = 1;

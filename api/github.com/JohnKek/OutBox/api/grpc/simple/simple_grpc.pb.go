@@ -4,7 +4,7 @@
 // - protoc             v5.28.2
 // source: simple.proto
 
-package api
+package simple
 
 import (
 	context "context"
