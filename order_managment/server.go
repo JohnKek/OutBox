@@ -1,7 +1,7 @@
 package main
 
 import (
-	api "api/api/grpc"
+	api "github.com/JohnKek/OutBox/api"
 	"context"
 	"fmt"
 	"google.golang.org/grpc"
